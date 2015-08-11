@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".TwoDimensionScrollActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TwoDimensionGestureScrollActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MultitouchActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MoveLoggerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TouchForwardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TouchDelegateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TouchListenerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TouchInterceptActivity" />
     </application>
 
 </manifest>
